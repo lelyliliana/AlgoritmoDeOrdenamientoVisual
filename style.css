@@ -1,0 +1,72 @@
+/* Estilo general para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+/* Estilo del título */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo del campo de entrada */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+/* Cambia el color del botón cuando el mouse pasa por encima */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del área de visualización del algoritmo */
+#visualizacion {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilo de las barras que representan los números */
+.barra {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #007BFF;
+    width: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
